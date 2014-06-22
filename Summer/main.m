@@ -7,53 +7,20 @@
 //
 
 #import <Foundation/Foundation.h>
-
-@interface Fraction: NSObject
--(void) print;
--(void) setNumberator: (int) n;
--(void) setDenumberator:(int) d;
-
-@end
-
-
-@implementation Fraction
-{
-    int numberator;
-    int deNumberator;
-}
-
--(void) print
-{
-    NSLog(@"%i/%i", numberator, deNumberator);
-}
-
--(void) setNumberator: (int) n;
-{
-    numberator = n;
-}
-
--(void) setDenumberator:(int) d;
-{
-    deNumberator = d;
-}
-@end
+#import "Fraction.h"
+#import "Person.h"
 
 
 int main(int argc, const char * argv[])
 {
 
     @autoreleasepool {
-        Fraction *fra1 = [[Fraction alloc] init];
-        Fraction *fra2 = [[Fraction alloc] init];
+        Person *classVar = [[Person alloc] init];
+        Person *instanceVar = [[Person alloc] init];
         
-        [fra1 setNumberator:1];
-        [fra1 setDenumberator:2];
-        [fra2 setNumberator:2];
-        [fra2 setDenumberator:50];
+        NSLog(@"classVar: %d", [Person population]);
         
-        [fra1 print];
-        NSLog(@"Second");
-        [fra2 print];
+        NSLog(@"instanceVar: %d", [instanceVar age]);
         NSLog(@"Hello, World!");
         
     }

@@ -13,4 +13,7 @@
 @property int numerator, denomerator;
 -(void) print;
 -(double) converToNum;
+-(void) setTo: (int) a to: (int) n;
+
+-(void) add: (Fraction*) f;
 @end

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0FC5B20E19579A9E0077E71F /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FC5B20D19579A9E0077E71F /* Person.m */; };
 		0FFC68221957481700A7CB9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FFC68211957481700A7CB9B /* Foundation.framework */; };
 		0FFC68251957481700A7CB9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FFC68241957481700A7CB9B /* main.m */; };
 		0FFC68291957481700A7CB9B /* Summer.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0FFC68281957481700A7CB9B /* Summer.1 */; };
@@ -27,6 +28,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0FC5B20C19579A9E0077E71F /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		0FC5B20D19579A9E0077E71F /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		0FFC681E1957481700A7CB9B /* Summer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Summer; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FFC68211957481700A7CB9B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0FFC68241957481700A7CB9B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -77,9 +80,11 @@
 			isa = PBXGroup;
 			children = (
 				0FFC68241957481700A7CB9B /* main.m */,
-				0FFC68281957481700A7CB9B /* Summer.1 */,
 				0FFC682F195750A400A7CB9B /* Fraction.h */,
 				0FFC6830195750A400A7CB9B /* Fraction.m */,
+				0FC5B20C19579A9E0077E71F /* Person.h */,
+				0FC5B20D19579A9E0077E71F /* Person.m */,
+				0FFC68281957481700A7CB9B /* Summer.1 */,
 				0FFC68261957481700A7CB9B /* Supporting Files */,
 			);
 			path = Summer;
@@ -144,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FC5B20E19579A9E0077E71F /* Person.m in Sources */,
 				0FFC68251957481700A7CB9B /* main.m in Sources */,
 				0FFC6831195750A400A7CB9B /* Fraction.m in Sources */,
 			);
