@@ -10,6 +10,7 @@
 		0FFC68221957481700A7CB9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FFC68211957481700A7CB9B /* Foundation.framework */; };
 		0FFC68251957481700A7CB9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FFC68241957481700A7CB9B /* main.m */; };
 		0FFC68291957481700A7CB9B /* Summer.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0FFC68281957481700A7CB9B /* Summer.1 */; };
+		0FFC6831195750A400A7CB9B /* Fraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FFC6830195750A400A7CB9B /* Fraction.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		0FFC68241957481700A7CB9B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0FFC68271957481700A7CB9B /* Summer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Summer-Prefix.pch"; sourceTree = "<group>"; };
 		0FFC68281957481700A7CB9B /* Summer.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Summer.1; sourceTree = "<group>"; };
+		0FFC682F195750A400A7CB9B /* Fraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Fraction.h; path = ../Fraction.h; sourceTree = "<group>"; };
+		0FFC6830195750A400A7CB9B /* Fraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Fraction.m; path = ../Fraction.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +78,8 @@
 			children = (
 				0FFC68241957481700A7CB9B /* main.m */,
 				0FFC68281957481700A7CB9B /* Summer.1 */,
+				0FFC682F195750A400A7CB9B /* Fraction.h */,
+				0FFC6830195750A400A7CB9B /* Fraction.m */,
 				0FFC68261957481700A7CB9B /* Supporting Files */,
 			);
 			path = Summer;
@@ -140,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0FFC68251957481700A7CB9B /* main.m in Sources */,
+				0FFC6831195750A400A7CB9B /* Fraction.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +259,7 @@
 				0FFC682E1957481700A7CB9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
